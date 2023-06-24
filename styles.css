@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(10, 0, 150);
+    color: aliceblue; 
+}
+li{
+    align-items: center;
+    vertical-align: center;
+    text-align: center;
+    display: inline;
+    padding: 0.7em;
+    font-size: 24px;
+    width: 300px;
+    height: 60px; 
+    border-radius: 0.1em;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    background: rgb(15, 39, 170);
+    list-style: none;
+    border: solid 2px;
+    border-radius: 0.1em;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+h1{
+    font-size: 400%;
+    text-align: center;
+    margin-top: 40px;
+}
+.carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel img:first-child {
+    display: block;
+  }
+  
